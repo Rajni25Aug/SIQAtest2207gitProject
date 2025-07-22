@@ -12,7 +12,7 @@ services:
   packages:
   - name: SIQAtest2207gitProject
     version: "1.0"
-- serviceName: project.siqatest2207git.integrations:JMS_JNDI_SSL
+- serviceName: project.siqatest2207git.integrations:JMSFlowTest
   packages:
   - name: SIQAtest2207gitProject
     version: "1.0"
@@ -24,6 +24,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.7
+- serviceName: project.siqatest2207git.integrations:JMS_JNDI_SSL
+  packages:
+  - name: SIQAtest2207gitProject
+    version: "1.0"
 - serviceName: project.siqatest2207git.integrations:SIQAAdapterFlow
   packages:
   - name: SIQAtest2207gitProject
